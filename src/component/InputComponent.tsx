@@ -38,7 +38,7 @@ const InputComponent = ({ placeHolder, buttonStyle, headingStyle, ref, placehold
 const styles = StyleSheet.create({
     container: {
         width: "95%",
-        height: 40,
+        height: 41,
         borderRadius: 20,
         alignSelf: 'center',
         borderColor: 'white',
