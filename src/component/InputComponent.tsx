@@ -11,7 +11,7 @@ interface props {
     icons?: boolean
     rightIcon?: any
     headingtext?: string,
-    headingTextStyle: object
+    headingTextStyle: object,
 }
 
 const InputComponent = ({ placeHolder, buttonStyle, headingStyle, ref, placeholderTextColor, onChangeText, icons, rightIcon, headingtext, headingTextStyle }: props) => {
