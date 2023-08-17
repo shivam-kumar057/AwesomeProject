@@ -13,7 +13,7 @@ export default class VideoPlayers extends Component<S> {
   constructor(props:any) {
     super(props);
     this.state = {
-      pauseVideos :false
+      pauseVideos :false,
     }
   }
   pause = () => {
