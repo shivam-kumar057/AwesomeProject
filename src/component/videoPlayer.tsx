@@ -17,7 +17,7 @@ export default class VideoPlayers extends Component<S> {
     }
   }
   pause = () => {
-    this.setState({pauseVideos:!this.state.pauseVideos})
+    this.setState({pauseVideos:!this.state.pauseVideos })
   }
   render() {
     return (
